@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/kinga/Project_Folder/pi_logic_/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/kinga/Project_Folder/pi_logic_/build/pi_logic__autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fPIC -std=gnu++17 -o CMakeFiles/pi_logic_.dir/pi_logic__autogen/mocs_compilation.cpp.o -c /home/kinga/Project_Folder/pi_logic_/build/pi_logic__autogen/mocs_compilation.cpp",
+  "file": "/home/kinga/Project_Folder/pi_logic_/build/pi_logic__autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/kinga/Project_Folder/pi_logic_/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/kinga/Project_Folder/pi_logic_/build/pi_logic__autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fPIC -std=gnu++17 -o CMakeFiles/pi_logic_.dir/main.cpp.o -c /home/kinga/Project_Folder/pi_logic_/main.cpp",
+  "file": "/home/kinga/Project_Folder/pi_logic_/main.cpp"
+},
+{
+  "directory": "/home/kinga/Project_Folder/pi_logic_/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/kinga/Project_Folder/pi_logic_/build/pi_logic__autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fPIC -std=gnu++17 -o CMakeFiles/pi_logic_.dir/mainwindow.cpp.o -c /home/kinga/Project_Folder/pi_logic_/mainwindow.cpp",
+  "file": "/home/kinga/Project_Folder/pi_logic_/mainwindow.cpp"
+}
+]

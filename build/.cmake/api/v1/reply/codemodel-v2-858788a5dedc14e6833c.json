@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-318b665feb5690db7d63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pi_logic_",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pi_logic_::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pi_logic_-Debug-883e399f5158998b7a97.json",
+					"name" : "pi_logic_",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pi_logic__autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pi_logic__autogen-Debug-a60dbaf1e467562e3a55.json",
+					"name" : "pi_logic__autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pi_logic__autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pi_logic__autogen_timestamp_deps-Debug-22801e10be5470139df5.json",
+					"name" : "pi_logic__autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kinga/Project_Folder/pi_logic_/build",
+		"source" : "/home/kinga/Project_Folder/pi_logic_"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

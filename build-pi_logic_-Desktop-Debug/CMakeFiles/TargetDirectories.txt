@@ -1,0 +1,9 @@
+/home/kinga/Project_Folder/pi_logic_/build-pi_logic_-Desktop-Debug/CMakeFiles/pi_logic_.dir
+/home/kinga/Project_Folder/pi_logic_/build-pi_logic_-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/kinga/Project_Folder/pi_logic_/build-pi_logic_-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/kinga/Project_Folder/pi_logic_/build-pi_logic_-Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/kinga/Project_Folder/pi_logic_/build-pi_logic_-Desktop-Debug/CMakeFiles/install.dir
+/home/kinga/Project_Folder/pi_logic_/build-pi_logic_-Desktop-Debug/CMakeFiles/install/local.dir
+/home/kinga/Project_Folder/pi_logic_/build-pi_logic_-Desktop-Debug/CMakeFiles/install/strip.dir
+/home/kinga/Project_Folder/pi_logic_/build-pi_logic_-Desktop-Debug/CMakeFiles/pi_logic__autogen_timestamp_deps.dir
+/home/kinga/Project_Folder/pi_logic_/build-pi_logic_-Desktop-Debug/CMakeFiles/pi_logic__autogen.dir

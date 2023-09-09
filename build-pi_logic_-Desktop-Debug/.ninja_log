@@ -1,0 +1,9 @@
+# ninja log v5
+0	136	1694244310266600304	pi_logic__autogen/timestamp	dbd3af285a8c79bf
+0	136	1694244310266600304	pi_logic__autogen/mocs_compilation.cpp	dbd3af285a8c79bf
+0	136	1694244310266600304	/home/kinga/Project_Folder/pi_logic_/build-pi_logic_-Desktop-Debug/pi_logic__autogen/timestamp	dbd3af285a8c79bf
+0	136	1694244310266600304	/home/kinga/Project_Folder/pi_logic_/build-pi_logic_-Desktop-Debug/pi_logic__autogen/mocs_compilation.cpp	dbd3af285a8c79bf
+136	1233	1694244311198596305	CMakeFiles/pi_logic_.dir/pi_logic__autogen/mocs_compilation.cpp.o	9c59ca84eb444ce8
+137	1528	1694244311282595944	CMakeFiles/pi_logic_.dir/main.cpp.o	77b18c3832abe0b3
+137	1838	1694244311338595704	CMakeFiles/pi_logic_.dir/mainwindow.cpp.o	bc636579dc69c7c4
+1838	2112	1694244312242591822	pi_logic_	878d408c7f05b612
