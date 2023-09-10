@@ -106,3 +106,7 @@ CMakeLists.txt.user*
 *.dll
 *.exe
 
+# Build 
+# -----
+build/
+build-pi_logic_-Desktop-Debug/
