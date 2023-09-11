@@ -7,6 +7,9 @@
 #include <QtCharts/QChart>
 #include <QtCharts/QChartView>
 #include <QtCharts/QLineSeries>
+#include <QDoubleSpinBox>
+#include <QTimer>
+
 // General Libaries 
 #include <iostream>
 #include <cmath>
@@ -28,13 +31,20 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    void FixLayouts();
+    void UpdateChart();
+    QTimer *timer;
     QtCharts::QLineSeries *series;
     QtCharts::QChart *chart;
     QtCharts::QChartView *chartView;
-    float maxTime = 10;
+    float max_t = 10;
+    float ith_t = 0;
+    float delta_t = 0.5;
 
 private slots:
     void PlotPressed();
-    void TimePressed();
+    void ClearPressed();
+    void StopPressed();
+
 };
 #endif // MAINWINDOW_H
