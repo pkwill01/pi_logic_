@@ -16,6 +16,7 @@
 #include <chrono>
 #include <thread>
 #include<unistd.h>
+#include <chrono>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -37,9 +38,11 @@ private:
     QtCharts::QLineSeries *series;
     QtCharts::QChart *chart;
     QtCharts::QChartView *chartView;
-    float max_t = 10;
-    float ith_t = 0;
-    float delta_t = 0.5;
+    double max_t = 10;
+    double ith_t = 0;
+    double delta_t = 0.5;
+    std::chrono::high_resolution_clock::time_point start_time; // Specify the data type
+
 
 private slots:
     void PlotPressed();

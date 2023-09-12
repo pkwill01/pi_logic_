@@ -45,11 +45,6 @@ void MainWindow::PlotPressed()
     delta_t = ui->deltaBox->value();
     // Plotting Pre checks
     chart->removeSeries(series);
-    // Creating Data series 
-    // for (float i = 0; i < max_t; i += delta_t) 
-    // {
-    //  series->append(i, sin(i));
-    // }
 
     // Series actions
     /////////////////
@@ -75,6 +70,7 @@ void MainWindow::PlotPressed()
     ui->plotFrame->layout()->addWidget(chartView);
 
     // Starting Timer
+    start_time = std::chrono::high_resolution_clock::now();
     timer->start(delta_t*1000);
 }
 
@@ -91,6 +87,13 @@ void MainWindow::StopPressed()
     std::cout<<"Stopping Plotting"<<std::endl;
     timer->stop(); 
     ith_t = 0;
+
+    // Stop the timer
+    auto end_time = std::chrono::high_resolution_clock::now();
+
+    // Calculate the duration in milliseconds
+    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
+    std::cout << "Function execution time: " << duration.count() << " milliseconds" << std::endl;
 }
 
 
