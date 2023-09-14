@@ -17,6 +17,7 @@
 #include <thread>
 #include<unistd.h>
 #include <chrono>
+#include <vector>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -33,15 +34,26 @@ public:
 private:
     Ui::MainWindow *ui;
     void FixLayouts();
+    void SampleData();
     void UpdateChart();
-    QTimer *timer;
+    QTimer *timer_updateChart;
+    QTimer *timer_SampleData;
     QtCharts::QLineSeries *series;
     QtCharts::QChart *chart;
     QtCharts::QChartView *chartView;
+    std::chrono::high_resolution_clock::time_point start_time; // Specify the data type
     double max_t = 10;
+    // Update Variables 
     double ith_t = 0;
     double delta_t = 0.5;
-    std::chrono::high_resolution_clock::time_point start_time; // Specify the data type
+    std::vector<double> _sampledData; 
+    std::vector<double> _timeData; 
+    // Data History 
+    std::vector<double> sampledData; 
+    std::vector<double> timeData; 
+    // Chart Variables 
+    double jth_t_update = 0;
+    double delta_t_update = .5;
 
 
 private slots:
